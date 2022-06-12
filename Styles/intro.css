@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat';
+}
+.intro{
+  background-image: url('../Assets/intro.jpg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative; 
+}
+.intro .innerDiv{
+  background-image: linear-gradient(270deg,rgba(7,90,174,0) 0%,#075aae 100%);
+    opacity: .9;
+    height: 100vh;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introContent{
+  margin-left: 13%;
+  max-width: 600px;
+}
+.headline{
+  padding-top: 50px;
+  font-family: 'Montserrat';
+  font-size: 3.75rem;
+  font-weight: 500;
+  color: white;
+}
+.introDesc{
+  margin-top: 40px;
+  line-height: 1.75;
+  color: white;
+}
+
+
+.introBtn2 {
+  width: fit-content;
+  padding: 1.1rem 2.2rem;
+  background: #075aae;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  transition: all 500ms ease;
+}
+
+.introBtnDiv{
+  padding-top: 50px;
+}
+
+.introBtn1 {
+  width: fit-content;
+  padding: 1.1rem 2.2rem;
+  background: #f4f6f6;
+  color: #075aae;
+  text-align: center;
+  font-size: 16px;
+  transition: all 500ms ease;
+}
+
+.link-btn-style-3 {
+  width: fit-content;
+  padding: 1.1rem 2.2rem;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  transition: all 500ms ease;
+}
+
+.introBtn2:hover {
+  background: #067ae0;
+  color: white;
+}
+
+.introBtn1:hover {
+  background: white;
+  
+}
+
+
+
+.taglineDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #075aae;
+  color: white;
+  padding: 6vmax 4vmax 8vmax 4vmax;
+}
+
+.taglineDiv h2 {
+  width: 660px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 40px;
+}
+
+.copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--global-color-2);
+  padding: 2rem;
+}
+
+.copyright div {
+  max-width: 1080px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 540px) {
+  .copyright div {
+    flex-direction: column;
+  }
+}
